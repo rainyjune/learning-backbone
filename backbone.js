@@ -5,6 +5,8 @@
 //     For all details and documentation:
 //     http://backbonejs.org
 
+// Use Immediately-invoked function expression (IIFE) to protect against polluting the global environment
+// simultaneously allow public access to methods while retianing privacy for variables defined within the function.
 (function(factory) {
 
   // Establish the root object, `window` (`self`) in the browser, or `global` on the server.
